@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colección de Labiales</title>
+    <style>
+        body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: pink;
+            background-image: url('imagenes/mac7.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        header {
+            background-color: #388E3C;
+            padding: 1.5rem;
+            color: white;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #2E7D32;
+            padding: 0.5rem;
+        }
+        nav button {
+            background-color: #66BB6A;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            cursor: pointer;
+            font-size: 1em;
+            border-radius: 5px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        nav button:hover {
+            background-color: #81C784;
+            transform: scale(1.1);
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        textarea {
+            width: 100%;
+            max-width: 600px;
+            height: 150px;
+            padding: 10px;
+            margin: 1rem auto;
+            font-size: 1rem;
+            color: #333;
+            border: 2px solid #2E7D32;
+            border-radius: 10px;
+            resize: none;
+            transition: border-color 0.3s ease;
+        }
+        textarea:focus {
+            border-color: #66BB6A;
+            outline: none;
+        }
+        #producto {
+            background-color: #C8E6C9;
+            padding: 2rem;
+        }
+        #tutorial {
+            background-color: #A5D6A7;
+            padding: 2rem;
+        }
+        iframe {
+            width: 50%;
+            height: 200px;
+            border: none;
+        }
+        .back-to-nav a {
+            text-decoration: none;
+            color: #2E7D32;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #2E7D32;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        .social-icons {
+            margin: 0.5rem 0;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+            transition: transform 0.3s ease;
+        }
+        .social-icons img:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <button onclick="location.href='#producto'">Labial</button>
+        <button onclick="location.href='#tutorial'">Tutorial</button>
+        <button onclick="location.href='practica1.html#PRODUCTOS'">Volver Menú</button>
+    </nav>
+    <header>
+        <h1>Colección de Labiales de Marge Simpson</h1>
+    </header>
+    <center>
+        <img src="imagenes/descuento2.jpeg" alt="Labial de Marge Simpson" style="width: 60%; margin: 1rem 0;">
+    </center>
+    <div>
+        <marquee>
+            <img src="imagenes/carrusel2.jpeg" alt="Colección" width="350" height="80">
+            <img src="imagenes/carrusel2.jpeg" alt="Maquillaje" width="350" height="80">
+            <img src="imagenes/carrusel2.jpeg" alt="Ropa" width="350" height="80">
+        </marquee>
+    </div>
+    <section id="producto">
+        <h2>Producto Destacado</h2>
+        <center>
+            <img src="imagenes/rimel1.jpeg" alt="Labial de Marge Simpson" style="width: 50%;">
+        </center>
+        <center>
+            <label for="texto2"></label>
+            <textarea name="texto2" readonly>
+                Rimel: "Las pestañas de Marge"
+                El rimel de la Colección de Los Simpsons es un homenaje a las pestañas icónicas de Marge. 
+                Con su fórmula suave y fácil de aplicar, 
+                este rimel te permite definir y alargar tus pestañas con facilidad.
+                🌟
+            </textarea>
+        </center>
+        <div class="back-to-nav">
+            <a href="#top">Volver al Menú</a>
+        </div>
+    </section>
+    <section id="tutorial">
+        <h2>Tutorial de Aplicación</h2>
+        <center>
+            <iframe 
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTZ3eGTNPSVPSmhMW8ch8X6WjAHe2v8Ar9vDzKT97URsvkzHwMqht8zwyDbEsMzMLkosV-tWsRnKF7U/pubhtml?gid=0&single=true" 
+                width="50" 
+                height="30" 
+                style="border: none;" 
+                allowfullscreen>
+            </iframe>
+
+        </center>
+        <div class="back-to-nav">
+            <a href="#top">Volver al Menú</a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Colección de Labiales. Todos los derechos reservados. DANIELETH-EVIL</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="imagenes/fb.jpg" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="imagenes/in.jpg" alt="Instagram">
+            </a>
+            <a href="https://chat.whatsapp.com/HkthOdXii5iAPcXvdfLEqr" target="_blank">
+                <img src="imagenes/w.jpeg" alt="WhatsApp">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Colección de Labiales</title>
+        <style> 
+            body {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+
+                /* Estilos de fondo */
+                background-color: rgb(252, 155, 9);
+                background-image: url('mac7.jpg');
+                background-size: cover;
+                background-position: center; /* Agregué esta línea para centrar el fondo */
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            header {
+                background-color: #e4d33e;
+                padding: 1rem;
+                color: white;
+                text-align: center;
+            }
+            nav {
+                display: flex;
+                justify-content: center;
+                background-color: #c26209;
+                padding: 0.5rem;
+            }
+            nav button {
+                background-color: #f3ac14;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                margin: 0 10px;
+                cursor: pointer;
+                font-size: 1em;
+                border-radius: 5px;
+                transition: transform 0.3s ease, background-color 0.3s ease;
+            }
+            nav button:hover {
+                background-color: #FFC8DD;
+                transform: scale(1.1);
+            }
+            h1 {
+                text-align: center; 
+                font-size: 2.5em; 
+                color: #e8e5eb;
+            }
+            section {
+                padding: 2rem;
+            }
+            #producto {
+                background-color: #e9c76a;
+                padding: 2rem;
+                text-align: center;
+            }
+            #tutorial {
+                background-image: url('maclogo.png');
+                background-size: cover; /* Agregué esta línea para que el fondo se vea en toda la sección */
+                background-repeat: no-repeat;
+                background-position: center; /* Agregué esta línea para que el fondo se centre */
+                padding: 2rem;
+                text-align: center;
+                width: 100%;
+                height: 100vh; /* Agregué esta línea para que el fondo se vea en toda la altura de la sección */
+            }
+            iframe {
+                width: 80%;
+                height: 400px;
+                border: none;
+            }
+            .back-to-nav {
+                text-align: center;
+                margin-top: 1rem;
+            }
+            .back-to-nav a {
+                text-decoration: none;
+                color: #5A189A;
+                font-weight: bold;
+            }
+            footer {
+                background-color: #5A189A;
+                color: white;
+                text-align: center;
+                padding: 1rem;
+                position: relative;
+                bottom: 0;
+                width: 100%;
+            }
+            .social-icons {
+                margin: 0.5rem 0;
+            }
+            .social-icons a {
+                margin: 0 10px;
+                text-decoration: none;
+            }
+            .social-icons img {
+                width: 30px;
+                height: 30px;
+                transition: transform 0.3s ease;
+            }
+            .social-icons img:hover {
+                transform: scale(1.2);
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <button onclick="location.href='#producto'">LABIAL</button>
+            <button onclick="location.href='#tutorial'">TUTORIAL</button>
+            <button onclick="location.href='practica1.html#PRODUCTOS'">VOLVER MENÚ</button>
+        </nav>
+        <header>
+            <h1>Colección de Sombras Lisa Corazón de León</h1>
+        </header>
+        <center>
+            <img src="imagenes/mac3.1.jpg" alt="Labial de Marge Simpson" style="width: 60%; margin: 1rem 0;">
+        </center>
+        <div>
+            <marquee>
+                <img src="imagenes/mac3.jpg" alt="MAQUILLAJE" width="250" height="80">
+                <img src="imagenes/mac3.1.jpg" alt="MAQUILLAJE" width="250" height="80">
+                <img src="imagenes/imagenes/sombraspor.jpg" alt="MAQUILLAJE" width="250" height="80">
+
+            </marquee>
+        </div>
+        <section id="producto">
+            <h2>Producto Destacado</h2>
+            <center>
+                <img src="sombraspor.jpg" alt="Labial de Marge Simpson" style="width: 50%;">
+            </center>
+            <center><label for="texto2"></label>
+                <textarea name="texto2">Sombras para ojos: "La mirada de Homer"
+                    Las sombras para ojos de la Colección de Los Simpsons te permiten crear looks divertidos y emocionantes. 
+                    Con colores inspirados en la serie, como el "D'oh! Azul" o el "Mmm... Marrón", 
+                    estas sombras para ojos son perfectas para agregar un toque de humor a tu rutina de belleza.
+                    🌟
+                </textarea></center>
+            <div class="back-to-nav">
+                <a href="#top">Volver al Menú</a>
+            </div>
+        </section>
+        <section id="tutorial">
+            <h2>Disfruta un momento espectacular!</h2>
+            <center>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YRbxUnSlYlo?si=2YnlreowZ7ohw1ks"
+                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                 picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </center>
+            <div class="back-to-nav">
+                <a href="#top">Volver al Menú</a>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2024 Colección de Sombras Lisa corazon de León. Todos los derechos reservados.DANIELETH-EVIL</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="imagenes/fb.jpg">
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="imagenes/in.jpg">
+                </a>
+                <a href="https://chat.whatsapp.com/HkthOdXii5iAPcXvdfLEqr" target="_blank">
+                    <img src="imagenes/w.jpeg">
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>
